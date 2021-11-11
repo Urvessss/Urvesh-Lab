@@ -18,10 +18,13 @@ public class NameException extends Exception
 		}
 	}
 	public static void main(String[] args) {
-		String fname="";
-		String lname="";
+//		String fname="Urvesh ";
+//		String lname="Patil";
+		
+		String fName="";
+		String lName="";
 		try {
-			validate(fname,lname);
+			validate(fName,lName);
 		} catch (NameException e) {
 			System.out.println("Exception occured"+e.getMessage());
 			e.printStackTrace();
